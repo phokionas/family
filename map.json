@@ -1,20 +1,20 @@
 { "compressionlevel":-1,
-  "editorsettings":
+ "editorsettings":
     {
-      "chunksize":
+     "chunksize":
         {
-          "height":32,
-          "width":32
+         "height":32,
+         "width":32
         },
-      "export":
+     "export":
         {
-          "format":"json",
-          "target":"map.json"
+         "format":"json",
+         "target":"map.json"
         }
     },
-  "height":12,
-  "infinite":false,
-  "layers":[
+ "height":12,
+ "infinite":false,
+ "layers":[
         {
          "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308, 308],
          "height":12,
@@ -206,40 +206,160 @@
  "tileheight":32,
  "tilesets":[
         {
+         "columns":11,
          "firstgid":1,
-         "source":"tileset1.tsx"
+         "image":"tileset1.png",
+         "imageheight":352,
+         "imagewidth":352,
+         "margin":0,
+         "name":"tileset1",
+         "spacing":0,
+         "tilecount":121,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":8,
          "firstgid":122,
-         "source":"floortileset.tsx"
+         "image":"floortileset.png",
+         "imageheight":256,
+         "imagewidth":256,
+         "margin":0,
+         "name":"floortileset",
+         "spacing":0,
+         "tilecount":64,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":12,
          "firstgid":186,
-         "source":"tileset2.tsx"
+         "image":"tileset2.png",
+         "imageheight":320,
+         "imagewidth":384,
+         "margin":0,
+         "name":"tileset2",
+         "spacing":0,
+         "tilecount":120,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":8,
          "firstgid":306,
-         "source":"fantasy.tsx"
+         "image":"fantasy.png",
+         "imageheight":4256,
+         "imagewidth":256,
+         "margin":0,
+         "name":"fantasy",
+         "spacing":0,
+         "tilecount":1064,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":11,
          "firstgid":1370,
-         "source":"tileset1.1.tsx"
+         "image":"tileset1.1.png",
+         "imageheight":352,
+         "imagewidth":352,
+         "margin":0,
+         "name":"tileset1.1",
+         "spacing":0,
+         "tilecount":121,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":10,
          "firstgid":1491,
-         "source":"tileset3.tsx"
+         "image":"tileset3.png",
+         "imageheight":320,
+         "imagewidth":320,
+         "margin":0,
+         "name":"tileset3",
+         "spacing":0,
+         "tilecount":100,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":10,
          "firstgid":1591,
-         "source":"tileset3.2.tsx"
+         "image":"tileset3.2.png",
+         "imageheight":320,
+         "imagewidth":320,
+         "margin":0,
+         "name":"tileset3.2",
+         "spacing":0,
+         "tilecount":100,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":16,
          "firstgid":1691,
-         "source":"tilesets_deviant_milkian_1.tsx"
+         "image":"tilesets_deviant_milkian_1.png",
+         "imageheight":512,
+         "imagewidth":512,
+         "margin":0,
+         "name":"tilesets_deviant_milkian_1",
+         "spacing":0,
+         "tilecount":256,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":11,
          "firstgid":1947,
-         "source":"tileset1-repositioning.tsx"
+         "image":"tileset1-repositioning.png",
+         "imageheight":352,
+         "imagewidth":352,
+         "margin":0,
+         "name":"tileset1-repositioning",
+         "spacing":0,
+         "tilecount":121,
+         "tileheight":32,
+         "tilewidth":32
+        }, 
+        {
+         "columns":12,
+         "firstgid":2068,
+         "image":"..\/..\/..\/..\/..\/Program Files\/tiled\/examples\/buch-outdoor.png",
+         "imageheight":192,
+         "imagewidth":384,
+         "margin":0,
+         "name":"buch-outdoor",
+         "spacing":0,
+         "tilecount":72,
+         "tileheight":32,
+         "tilewidth":32
+        }, 
+        {
+         "columns":11,
+         "firstgid":2140,
+         "image":"texts.png",
+         "imageheight":352,
+         "imagewidth":352,
+         "margin":0,
+         "name":"texts",
+         "spacing":0,
+         "tilecount":121,
+         "tileheight":32,
+         "tilewidth":32
+        }, 
+        {
+         "columns":12,
+         "firstgid":2261,
+         "image":"tileset2.2.png",
+         "imageheight":320,
+         "imagewidth":384,
+         "margin":0,
+         "name":"tileset2.2",
+         "spacing":0,
+         "tilecount":120,
+         "tileheight":32,
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
