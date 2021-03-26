@@ -165,7 +165,7 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"colides",
+                 "name":"collides",
                  "type":"bool",
                  "value":true
                 }],
