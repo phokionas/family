@@ -384,6 +384,74 @@
          "spacing":2,
          "tilecount":121,
          "tileheight":32,
+         "tiles":[
+                {
+                 "id":8,
+                 "objectgroup":
+                    {
+                     "draworder":"index",
+                     "id":3,
+                     "name":"",
+                     "objects":[
+                            {
+                             "height":0,
+                             "id":2,
+                             "name":"table_top-left",
+                             "polygon":[
+                                    {
+                                     "x":0,
+                                     "y":0
+                                    }, 
+                                    {
+                                     "x":1,
+                                     "y":-8.66666666666666
+                                    }, 
+                                    {
+                                     "x":6,
+                                     "y":-18.3333333333333
+                                    }, 
+                                    {
+                                     "x":17,
+                                     "y":-27.6666666666667
+                                    }, 
+                                    {
+                                     "x":25.6666666666667,
+                                     "y":-30
+                                    }, 
+                                    {
+                                     "x":31.3333333333333,
+                                     "y":-30.3333333333333
+                                    }, 
+                                    {
+                                     "x":31.3333333333333,
+                                     "y":-0.999999999999996
+                                    }],
+                             "properties":[
+                                    {
+                                     "name":"collides",
+                                     "type":"bool",
+                                     "value":true
+                                    }],
+                             "rotation":0,
+                             "type":"",
+                             "visible":true,
+                             "width":0,
+                             "x":0.333333333333333,
+                             "y":32.3333333333333
+                            }],
+                     "opacity":1,
+                     "type":"objectgroup",
+                     "visible":true,
+                     "x":0,
+                     "y":0
+                    },
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }],
          "tilewidth":32
         }, 
         {
