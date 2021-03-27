@@ -273,7 +273,7 @@
                         }],
                  "rotation":0,
                  "type":"",
-                 "visible":true,
+                 "visible":false,
                  "width":0,
                  "x":481,
                  "y":186
@@ -444,13 +444,7 @@
                      "visible":true,
                      "x":0,
                      "y":0
-                    },
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
+                    }
                 }],
          "tilewidth":32
         }, 
